@@ -1,0 +1,137 @@
+2022-11-11 02:34:15 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fab4c68fba0; archive(resolved)="<IDEArchive: 0x600001277060>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team(resolved)="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fab4c68fba0; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionProcessingPipelineContext: 0x7fab4c68f960; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab4c68f640; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab5afa5820; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab5afa50b0; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab5afa4a60; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab5afa4260; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab5afa3100; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab5b808a20; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="<IDEProvisioningBasicTeam: 0x60000378c720; teamID='VP7UV49VBW', teamName='Linjing Chen'>">
+	<IDEDistributionContext: 0x7fab5af9a700; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="(null)">
+	<IDEDistributionContext: 0x7fab5b811e80; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="(null)">
+	<IDEDistributionContext: 0x7fab4c305360; archive = "<IDEArchive: 0x600001277060>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003480500>", team="(null)">
+	<IDEDistributionContext: 0x7fab4c675940; archive = "<IDEArchive: 0x600001277060>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7fab4c68fba0>
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2022-11-11 02:34:15 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app' '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app'
+2022-11-11 02:34:15 +0000  >>> Copying /Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app 
+2022-11-11 02:34:15 +0000  copying file ./_CodeSignature/CodeResources ... 
+2022-11-11 02:34:15 +0000  3895 bytes for ./_CodeSignature/CodeResources
+2022-11-11 02:34:15 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2022-11-11 02:34:15 +0000  955 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2022-11-11 02:34:15 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2022-11-11 02:34:15 +0000  3900 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2022-11-11 02:34:15 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2022-11-11 02:34:15 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-11-11 02:34:15 +0000  1173 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2022-11-11 02:34:15 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-11-11 02:34:15 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2022-11-11 02:34:15 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2022-11-11 02:34:15 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2022-11-11 02:34:15 +0000  copying file ./AutoPackageScriptDemo ... 
+2022-11-11 02:34:15 +0000  3990208 bytes for ./AutoPackageScriptDemo
+copying file ./embedded.mobileprovision ... 
+2022-11-11 02:34:15 +0000  20193 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1115 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2022-11-11 02:34:15 +0000  8 bytes for ./PkgInfo
+2022-11-11 02:34:15 +0000 [MT] /usr/bin/ditto exited with 0
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2022-11-11 02:34:15 +0000 [MT] Running /Applications/Xcode13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo' '-r' '-keep_cs' '-o' '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo'
+2022-11-11 02:34:15 +0000 [MT] /Applications/Xcode13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2022-11-11 02:34:15 +0000 [MT] Running /Applications/Xcode13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo' '-verify_arch' 'arm64e'
+2022-11-11 02:34:15 +0000 [MT] /Applications/Xcode13.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-11-11 02:34:15 +0000 [MT] Skipping architecture thinning for item "AutoPackageScriptDemo" because arch "arm64e" wasn't found
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionODRStep
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2022-11-11 02:34:15 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app'
+2022-11-11 02:34:15 +0000 [MT] /usr/bin/xattr exited with 0
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2022-11-11 02:34:15 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001272640; bundleID='com.cute.dev1', path='<DVTFilePath:0x60000186f480:'/Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001545a40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000001dc840; name='Apple Development: Linjing Chen (S22D49K7GG)', hash='66FEA61F34A00FDFF74D7EC88572734DE25E221E', serialNumber='332CADCFA3253E71FDE81FE867716797', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-10-15 14:10:58 +0000''>', entitlements='{
+    "application-identifier" = "VP7UV49VBW.com.cute.dev1";
+    "com.apple.developer.team-identifier" = VP7UV49VBW;
+    "get-task-allow" = 1;
+}', teamID='VP7UV49VBW', identifier='com.cute.dev1', executablePath='<DVTFilePath:0x6000019d4680:'/Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app/AutoPackageScriptDemo'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "VP7UV49VBW.com.cute.dev1";
+    "com.apple.developer.team-identifier" = VP7UV49VBW;
+    "get-task-allow" = 1;
+}
+2022-11-11 02:34:15 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001272640; bundleID='com.cute.dev1', path='<DVTFilePath:0x60000186f480:'/Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001545a40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000001dcbb0; name='Apple Development: Linjing Chen (S22D49K7GG)', hash='66FEA61F34A00FDFF74D7EC88572734DE25E221E', serialNumber='332CADCFA3253E71FDE81FE867716797', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-10-15 14:10:58 +0000''>', entitlements='{
+    "application-identifier" = "VP7UV49VBW.com.cute.dev1";
+    "com.apple.developer.team-identifier" = VP7UV49VBW;
+    "get-task-allow" = 1;
+}', teamID='VP7UV49VBW', identifier='com.cute.dev1', executablePath='<DVTFilePath:0x6000019d4680:'/Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app/AutoPackageScriptDemo'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "VP7UV49VBW.com.cute.dev1";
+    "com.apple.developer.team-identifier" = VP7UV49VBW;
+    "get-task-allow" = 1;
+}
+2022-11-11 02:34:15 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600001272640; bundleID='com.cute.dev1', path='<DVTFilePath:0x60000186f480:'/Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001545a40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000001df180; name='Apple Development: Linjing Chen (S22D49K7GG)', hash='66FEA61F34A00FDFF74D7EC88572734DE25E221E', serialNumber='332CADCFA3253E71FDE81FE867716797', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-10-15 14:10:58 +0000''>', entitlements='{
+    "application-identifier" = "VP7UV49VBW.com.cute.dev1";
+    "com.apple.developer.team-identifier" = VP7UV49VBW;
+    "get-task-allow" = 1;
+}', teamID='VP7UV49VBW', identifier='com.cute.dev1', executablePath='<DVTFilePath:0x6000019d4680:'/Users/nxglab/Downloads/AutoPackageScript-master/workspace_demo/AutoPackageScriptDemo/Package/AutoPackageScriptDemo-20221111_103405/AutoPackageScriptDemo.xcarchive/Products/Applications/AutoPackageScriptDemo.app/AutoPackageScriptDemo'>', hardenedRuntime='0'>'> to: /var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/entitlements~~~mlPpkx
+2022-11-11 02:34:15 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '66FEA61F34A00FDFF74D7EC88572734DE25E221E' '--entitlements' '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/entitlements~~~mlPpkx' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app'
+2022-11-11 02:34:15 +0000  /var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app: replacing existing signature
+2022-11-11 02:34:15 +0000  /var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app: signed app bundle with Mach-O thin (arm64) [com.cute.dev1]
+2022-11-11 02:34:15 +0000 [MT] /usr/bin/codesign exited with 0
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2022-11-11 02:34:15 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root' '/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Packages/AutoPackageScriptDemo.ipa'
+2022-11-11 02:34:15 +0000  >>> Copying /var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root 
+2022-11-11 02:34:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/_CodeSignature/CodeResources ... 
+2022-11-11 02:34:15 +0000  3895 bytes for ./Payload/AutoPackageScriptDemo.app/_CodeSignature/CodeResources
+2022-11-11 02:34:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2022-11-11 02:34:15 +0000  955 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2022-11-11 02:34:15 +0000  3900 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2022-11-11 02:34:15 +0000  258 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/Main.storyboardc/Info.plist
+2022-11-11 02:34:15 +0000  copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2022-11-11 02:34:15 +0000  1173 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2022-11-11 02:34:15 +0000  896 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2022-11-11 02:34:15 +0000  258 bytes for ./Payload/AutoPackageScriptDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo ... 
+2022-11-11 02:34:15 +0000  1067584 bytes for ./Payload/AutoPackageScriptDemo.app/AutoPackageScriptDemo
+copying file ./Payload/AutoPackageScriptDemo.app/embedded.mobileprovision ... 
+2022-11-11 02:34:15 +0000  20193 bytes for ./Payload/AutoPackageScriptDemo.app/embedded.mobileprovision
+copying file ./Payload/AutoPackageScriptDemo.app/Info.plist ... 
+2022-11-11 02:34:15 +0000  1115 bytes for ./Payload/AutoPackageScriptDemo.app/Info.plist
+copying file ./Payload/AutoPackageScriptDemo.app/PkgInfo ... 
+2022-11-11 02:34:15 +0000  8 bytes for ./Payload/AutoPackageScriptDemo.app/PkgInfo
+2022-11-11 02:34:15 +0000 [MT] /usr/bin/ditto exited with 0
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2022-11-11 02:34:15 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2022-11-11 02:34:15 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000019f2e00:'/var/folders/5c/m3tkmqh94yd5vlx5kht5qdrc0000gn/T/XcodeDistPipeline.~~~4wzSAq/Root/Payload/AutoPackageScriptDemo.app'>
+2022-11-11 02:34:15 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
