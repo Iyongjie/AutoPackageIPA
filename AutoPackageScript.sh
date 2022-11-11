@@ -34,16 +34,16 @@ bundle_identifier="com.cute.dev1"
 
 
 echo '开始拉代码'
-git checkout dev_1.0.6
-if [ $? -ne 0 ]; then
-    exit 1
-fi
+#git checkout dev_1.0.6
+#if [ $? -ne 0 ]; then
+#    exit 1
+#fi
 
 git pull
 pod install
-if [ $? -ne 0 ]; then
-     exit 1
-fi
+#if [ $? -ne 0 ]; then
+#     exit 1
+#fi
 echo '拉完了'
 
 
@@ -66,9 +66,9 @@ script_dir="$( cd "$( dirname "$0"  )" && pwd  )"
 project_dir=$script_dir
 
 # 时间
-DATE=`date '+%Y%m%d_%H%M%S'`
+DATE=`date '+%YY%mm%dd%HH%Mm%Ss'`
 # 指定输出导出文件夹路径
-export_path="$project_dir/Package/$scheme_name-$DATE"
+export_path="${HOME}/Desktop/iOS-IPAS/$scheme_name-$DATE"
 # 指定输出归档文件路径
 export_archive_path="$export_path/$scheme_name.xcarchive"
 # 指定输出ipa文件夹路径
